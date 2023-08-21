@@ -1,8 +1,0 @@
-const multiplier: number = 5;
-let counter: number = 0;
-const countedList: number[] = [];
-for (let position: number = 0; true; position = `${(++position) * multiplier}`) {
-    console.log(position);
-    if (position > 100) break;
-}
-
